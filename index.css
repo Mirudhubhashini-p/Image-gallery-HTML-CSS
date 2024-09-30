@@ -1,0 +1,20 @@
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+div img{
+    width: 400px;
+    height: 300px;
+    border: 2px solid rgb(15, 15, 15);
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0 black;
+    cursor: pointer;
+    margin: 10px;
+    transition:400ms;
+}
+div img:hover{
+    filter:brightness(1);
+    transform: scale(1.3);
+}
